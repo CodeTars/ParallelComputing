@@ -6,26 +6,28 @@
 
 ### Gauss
 
-h_common.h -|-makeEquationData.cpp
-            |
-            |-h_cpu.h-|-gauss_cpu.cpp
-            |                |-gauss_omp.cpp
-            |
-            |-h_gpu.h-|-gauss1.cu
-                      |-gauss2.1.cu
-                      |-gauss2.2.cu
-                      |-gauss2.3.cu
-                      |-gauss3.cu
-            
+* h_common.h
+  * makeEquationData.cpp
+  * h_cpu.h
+    * gauss_cpu.cpp
+    * gauss_omp.cpp
+  * h_gpu.h
+    * gauss1.cu
+    * gauss2.1.cu
+    * gauss2.2.cu
+    * gauss2.3.cu
+    * gauss3.cu
+                  
 
 ### Convolution
 
-mask.h-|-convol.cpp
-       |-convol_omp.h
-	   |-mycuda.h-|-main.cpp + |-convol_plain.cu
-	   			  |			                  |-convol_shared.cu
-	   			  |
-				     |-main_2gpu.cpp + convol_with_omp.cu
+* mask.h
+  * convol.cpp
+  * convol_omp.h
+  * mycuda.h
+    * convol_plain.cu + main.cpp
+    * convol_shared.cu + main.cpp
+    * convol_with_omp.cu + main.cpp
 
 
 
