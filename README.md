@@ -27,7 +27,7 @@
   * mycuda.h
     * convol_plain.cu + main.cpp
     * convol_shared.cu + main.cpp
-    * convol_with_omp.cu + main.cpp
+    * convol_with_omp.cu + main_2gpu.cpp
 
 
 
