@@ -1,6 +1,6 @@
 # 并行结算结课论文
 
-高斯消元以及图像卷积的CUDA实现 
+此为OUC2021年秋并行计算，我的结课论文代码，高斯消元以及图像卷积的CUDA实现 。
 
 ## 文件结构
 
@@ -33,4 +33,5 @@
 
 ## 运行
 
-要运行请使用Gauss/a.sh或Convolution/z.sh
+高斯消去，请使用Gauss/a.sh
+图像卷积，请先把a.jph移入Convolution下，然后使用Convolution/z.sh
